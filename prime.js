@@ -5,9 +5,18 @@ function checkPrime(num){
             count++;
         }
     }
-    
+    if(count == 2){
         return true;
+    }
+    return false;
+        
 }
 
-    checkPrime(15);
+    let answer = checkPrime(15);
+    if(answer == true){
+        console.log("Prime Number");
+    }
+    else{
+        console.log("Not a Prime Number");
+    }
    
